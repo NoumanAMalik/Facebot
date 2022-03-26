@@ -1,2 +1,3 @@
-language = "bash"
-run = "python3 main.py"
+language = "python3"
+#run = "pip install discord"
+run = " python3 main.py"
