@@ -14,6 +14,9 @@ a:hover{
 }
 
 .nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   padding: 10px;
   background-color: cornflowerblue;
 }
@@ -23,10 +26,8 @@ a:hover{
   background-color: cornflowerblue;
   
   border: none;
-/*   padding: 16px 32px; */
   margin-top: 8px;
   margin-bottom: 8px;
-  margin-left: 20px;
   
 }
 
@@ -48,14 +49,59 @@ h2{
   font: 20px "Calibri", san-serif;
 }
 
+code {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 0.1rem;
+}
+
+.card-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.card {
+  background-color: lightblue;
+  height: 300px;
+  width: 150px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.card:hover {
+  transform: scale(110%);
+  transition: ease-out 0.2s;
+}
+
+h4 {
+  margin: 0;
+  margin-top: 10px;
+}
+
+.card li {
+  font-size: 17px;
+  list-style: none;
+  margin: 0;
+}
+
 #section1 {
   height: 300px;
-/*   background-color: pink; */
+  /* background-color: pink; */
 }
 
 #section2 {
   height: 600px;
-/*   background-color: yellow; */
+  /* background-color: yellow; */
 }
 
 #section3 {
